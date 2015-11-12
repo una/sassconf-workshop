@@ -5,12 +5,12 @@ $fpo-text: 'FPO' !default;
 
 %fpo {
   position: relative;
-  
+
   &:before {
     content: '';
     display: block;
   }
-  
+
   &:after {
     font: 20px/1 Helvetica;
     position: absolute;
@@ -21,9 +21,9 @@ $fpo-text: 'FPO' !default;
 }
 
 @mixin fpo(
-  $size: $fpo-size, 
-  $bg: $fpo-bg, 
-  $color--text: $fpo-color--text, 
+  $size: $fpo-size,
+  $bg: $fpo-bg,
+  $color--text: $fpo-color--text,
   $text: $fpo-text
 ) {
   @if (type-of($size) != number) {
@@ -35,7 +35,7 @@ $fpo-text: 'FPO' !default;
   &:before {
     padding-bottom: if(unitless($size), percentage($size), $size);
   }
-  
+
   &:after {
     @if (type-of($bg) == color) {
       @debug abs(lightness($bg) - lightness($color--text));
