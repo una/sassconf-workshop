@@ -2,8 +2,10 @@
 
 Using this repo, we'll learn how to write code for an audience, and share it with the world!
 
-[Demo](/demo)
-[Docs](/sassdoc)
+[Slides and Resources](http://timhettler.github.io/sassconf-2015/)
+
+[Site Demo](/demo)
+[Site Docs](/sassdoc)
 
 ##Getting Started
 
