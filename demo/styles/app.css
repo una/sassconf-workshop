@@ -19,8 +19,14 @@
     position: absolute; }
 
 .scw-dummy-image {
+<<<<<<< HEAD
   background: #438ccb;
   padding-bottom: 100%; }
+=======
+  background: #438ccb; }
+  .scw-dummy-image:before {
+    padding-bottom: 100%; }
+>>>>>>> gh-pages
   .scw-dummy-image:after {
     content: "FPO";
     color: #fff; }
